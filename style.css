@@ -181,6 +181,56 @@ body {
     display: none;
 }
 
+.scores {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.scores > div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 40px 20px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.scores h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.scores .easy h2 {
+    color: #03a9f4;
+}
+
+.scores .medium h2 {
+    color: #673ab7;
+}
+.scores .difficult h2 {
+    color: rgb(209, 134, 4);
+}
+
+.scores .score {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scores .score .won {
+    color: green;
+    font-weight: bold;
+}
+
+.scores .score .lost {
+    font-weight: bold;
+    color: red;
+}
+
 ol {
     list-style-position: inside;
     margin-top: 20px;
