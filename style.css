@@ -230,7 +230,7 @@ ol li {
     color: rgb(209, 134, 4);
 }
 
-.scores .score {
+.scores .score-section {
     padding-left: 50px;
     padding-right: 50px;
     font-size: 20px;
@@ -238,12 +238,12 @@ ol li {
     justify-content: space-between;
 }
 
-.scores .score .won {
+.scores .score-section .won {
     color: green;
     font-weight: bold;
 }
 
-.scores .score .lost {
+.scores .score-section .lost {
     font-weight: bold;
     color: red;
 }
