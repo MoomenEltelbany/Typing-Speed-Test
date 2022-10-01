@@ -181,6 +181,23 @@ body {
     display: none;
 }
 
+ol {
+    list-style-position: inside;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+ol h2 {
+    text-transform: uppercase;
+    font-size: 25pxs;
+}
+
+ol li {
+    margin-top: 15px;
+}
+
 .scores {
     background-color: white;
     padding: 20px;
@@ -229,21 +246,4 @@ body {
 .scores .score .lost {
     font-weight: bold;
     color: red;
-}
-
-ol {
-    list-style-position: inside;
-    margin-top: 20px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-ol h2 {
-    text-transform: uppercase;
-    font-size: 25pxs;
-}
-
-ol li {
-    margin-top: 15px;
 }
